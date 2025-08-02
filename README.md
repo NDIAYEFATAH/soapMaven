@@ -17,7 +17,7 @@ webservices : expose les fonctions métier sous forme de services web SOAP, perm
 # Installation et exécution
 1- Cloner le dépôt :
 ```bash
-git clone https://github.com/votre-utilisateur/projet-soap.git
+git clone https://github.com/NDIAYEFATAH/soapMaven.git
 ```
 2- Ouvrir le projet dans IntelliJ IDEA.
 3- Dans le terminal, naviguer jusqu'au répertoire docker.
@@ -25,7 +25,7 @@ git clone https://github.com/votre-utilisateur/projet-soap.git
 ```bash
 docker-compose up -d
 ```
-5- Attendre que les conteneurs soient opérationnels (MySQL et Tomcat).
+5- Attendre que les conteneurs soient opérationnels.
    - Nettoyez le projet Maven en tape `mvn clean install`.
 6- Deployer sur Tomcat :
    - Configurer Tomcat dans IntelliJ (si ce n'est pas déjà fait).
